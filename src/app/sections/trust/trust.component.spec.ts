@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ValuesComponent } from './values.component';
+import { TrustComponent } from './trust.component';
 
-describe('ValuesComponent', () => {
-  let component: ValuesComponent;
-  let fixture: ComponentFixture<ValuesComponent>;
+describe('TrustComponent', () => {
+  let component: TrustComponent;
+  let fixture: ComponentFixture<TrustComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ValuesComponent ]
+      declarations: [ TrustComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ValuesComponent);
+    fixture = TestBed.createComponent(TrustComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

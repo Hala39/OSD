@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f8ff;
+    box-shadow: 4px 6px 8px #00000029;
+    border-radius: 36px;
+    padding: 20px 40px;
+
+    .title {
+        display: flex;
+        align-items: center;
+    }
+
+    h3 {
+        display: inline-block;
+        margin-left: 3px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
+}
