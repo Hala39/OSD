@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.109" height="17.978" viewBox="0 0 24.109 17.978">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.936" x2="-0.569" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#03dee7"/>
+      <stop offset="0.597" stop-color="#126cff"/>
+      <stop offset="1" stop-color="#fefefe"/>
+    </linearGradient>
+  </defs>
+  <path id="Trust_CheckIcon" d="M8.188,22.2.353,14.367a1.205,1.205,0,0,1,0-1.7l1.7-1.7a1.205,1.205,0,0,1,1.7,0l5.278,5.278L20.346,4.93a1.205,1.205,0,0,1,1.7,0l1.7,1.7a1.205,1.205,0,0,1,0,1.7L9.893,22.2A1.205,1.205,0,0,1,8.188,22.2Z" transform="translate(0 -4.577)" fill="url(#linear-gradient)"/>
+</svg>

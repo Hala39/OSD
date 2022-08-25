@@ -1,0 +1,46 @@
+
+:host {
+    display: block;
+    width: 100%;
+    background-image: url('../../../assets/images/trust/bg.png');
+    background-size: cover;
+    padding-top: 30px;
+    background-color: #f7f8ff;
+}
+
+section {
+    padding: {
+        left: 15vw;
+        right: 15vw;
+        bottom: 30px;
+    }
+}
+
+li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+
+    .icon {
+        height: 60px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-right: 15px;
+
+        :nth-child(1) {
+            width: 60px;
+            height: 100%;
+        }
+
+        :nth-child(2) {
+            position: absolute;
+            width: 20px;
+            right: 22px;
+            bottom: 25px;
+        }
+    }
+}

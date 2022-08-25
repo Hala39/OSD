@@ -12,4 +12,14 @@ export class TrustComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  reasons: string[] = [
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere ut ullam deleniti repellendus tenetur distinctio odio, perferendis incidunt, unde fugiat vel ratione recusandae autem.',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere ut ullam deleniti repellendus tenetur distinctio odio, perferendis incidunt, unde fugiat vel ratione recusandae autem.',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere ut ullam deleniti repellendus tenetur distinctio odio, perferendis incidunt, unde fugiat vel ratione recusandae autem.',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere ut ullam deleniti repellendus tenetur distinctio odio, perferendis incidunt, unde fugiat vel ratione recusandae autem.',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere ut ullam deleniti repellendus tenetur distinctio odio, perferendis incidunt, unde fugiat vel ratione recusandae autem.',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere ut ullam deleniti repellendus tenetur distinctio odio, perferendis incidunt, unde fugiat vel ratione recusandae autem.',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere ut ullam deleniti repellendus tenetur distinctio odio, perferendis incidunt, unde fugiat vel ratione recusandae autem.',
+
+  ]
 }

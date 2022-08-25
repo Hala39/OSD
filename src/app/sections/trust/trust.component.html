@@ -1,1 +1,18 @@
-<p>values works!</p>
+<app-section-title
+    title="Our Clients trust us because..."  
+    text="Do you want to know what were we doing the last 16 years?"
+    anchorContent="Check pioneers in"
+    anchorTarget="#pioneers"
+>
+</app-section-title>
+<section>
+    <ul>
+        <li *ngFor="let reason of reasons">
+            <div class="icon">
+                <img src="assets/images/trust/circle.svg" alt="">
+                <img src="assets/images/trust/check.svg" alt="">
+            </div>
+            <p>{{ reason }}</p>
+        </li>
+    </ul>
+</section>
