@@ -1,0 +1,52 @@
+:host {
+    display: block;
+    margin-top: 30px;
+}
+
+.carousel {
+    width: 100%;
+    padding: {
+        left: 15vw;
+        right: 15vw;
+        top: 30px;
+    }
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    max-width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-left: 0;
+    cursor: grab;
+    @extend .scrollbar-hidden;
+
+    li {
+        display: inline-block;
+        width: 25%;
+        padding: 0 40px;
+
+        img {
+            width: 80%;
+            height: auto;
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+            color: #C8CCDC;
+            font-size: 24px;
+        }
+    }
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}

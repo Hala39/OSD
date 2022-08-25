@@ -1,1 +1,17 @@
-<p>technologies works!</p>
+<app-section-title
+    title="Technologies we use"
+    text="Didn't you find what are you looking for?"
+    anchorContent="Check Pioneers In"
+    anchorTarget="#pioneers"
+>
+</app-section-title>
+<section class="carousel">
+    <button (click)="goLeft()">Left</button>
+    <ul #technosRef>
+        <li *ngFor="let techno of technos">
+            <img [src]="techno.logo" [alt]="techno.name + 'logo'">
+            <div>{{ techno.name }}</div>
+        </li>
+    </ul>
+    <button (click)="goRight()">Right</button>
+</section>
