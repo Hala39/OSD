@@ -1,0 +1,26 @@
+<nav>
+    <ul>
+        <li *ngFor="let navItem of navItems">
+            <a  
+                [href]="'#' + (navItem.href ? navItem.href : navItem.label)" 
+                [innerText]="navItem.label | titlecase">
+            </a>
+        </li>
+        <li>
+            <button type="button">
+                <a href="#contact">
+                    Contact Us
+                </a>
+            </button>
+        </li>
+    </ul>
+</nav>
+<section class="hero">
+    <div>
+        <img src="" alt="logo">
+        <h1>OSD Services</h1>
+        <p>Outstanding IT Solutions Delivered</p>
+        <p>Reach the Highest Global Quality Standards with Innovative IT Solutions</p>
+        <button type="button">Learn more</button>
+    </div>
+</section>
