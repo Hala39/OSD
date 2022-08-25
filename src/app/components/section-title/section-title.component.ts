@@ -16,5 +16,6 @@ export class SectionTitleComponent implements OnInit {
   @Input('text') text: string = '';
   @Input('anchorContent') anchorContent: string = '';
   @Input('anchorTarget') anchorTarget: string = '';
+  @Input('color') color: string = '';
 
 }
