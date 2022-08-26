@@ -2,9 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
-## Development server
+## Set up for the first time
+
+Run `git clone https://github.com/Hala39/OSD.git`
+
+Run `cd osd`
+
+Run `npm install @angular/cli`
+
+Run `npm install --legacy-peer-deps`
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## To stay updated with daily changes
+
+Run `npm pull origin main`
+
+Run `npm install --legacy-peer-deps`
 
 ## Code scaffolding
 
