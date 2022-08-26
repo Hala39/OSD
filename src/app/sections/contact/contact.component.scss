@@ -1,0 +1,34 @@
+:host {
+    display: block;
+    padding: 30px 15vw;
+}
+
+.form-group {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% auto;
+    column-gap: 10px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+button[type='submit'] {
+    margin-left: 5px;
+}
